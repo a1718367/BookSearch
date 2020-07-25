@@ -4,7 +4,7 @@ import Alert from "react-bootstrap/Alert";
 
 // Local
 import API from "../utils/API";
-import { Results, ResultCard } from "../components/Results";
+import { Results, ResultCard } from "../components/Result";
 
 
 // Page Content
