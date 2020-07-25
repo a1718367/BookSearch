@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Database
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:pass21@ds057954.mlab.com:57954/heroku_4r1ps9kz", {
 	useNewUrlParser: true,
 });
 const connection = mongoose.connection;
